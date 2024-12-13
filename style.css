@@ -7,45 +7,44 @@ body {
     background-color: hsl(0, 0%, 8%);
     display: flex;
     font-family: fonte1;
-    min-width: 87vh;
+    min-width: 100vh;
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding: 3px;
 }
 main {
-    margin-top: 16px;
-    margin-bottom: 20px;
-    margin-left: -39%;
+    margin-top: 15%;
+    margin-bottom: 0;
+    margin-left: 0;
     background-color: hsl(0, 0%, 12%);
-    width: 17rem;
-    height: auto;
+    width: 55rem;
+    height: 90rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    border-radius: 10px;
 }
 h1 {
     text-align: center;
     color: hsl(0, 0%, 100%);
-    font-size: 27px;
+    font-size: 67px;
 }
 h2 {
     text-align: center;
     color: hsl(75, 94%, 57%);
-    font-size: 16px;
+    font-size: 40px;
     margin-top: -10px;
     margin-bottom: 15px;
 }
 p {
     text-align: center;
     color: hsl(0, 0%, 100%);
-    margin-bottom: 16px;
+    margin-bottom: 65px;
     font-weight: lighter;
-    font-size: 13px;
+    font-size: 35px;
 }
 button {
-   font-size: 100%;
+   font-size: 250%;
    background-color: hsl(0, 0%, 20%);
    color: hsl(0, 0%, 100%);
    border-radius: 8px;
@@ -57,32 +56,32 @@ button {
 }
 img {
     border-radius: 50%;
-    height: 100px;
+    height: 250px;
     width: auto;
 }
 .image {
     text-align: center;
-    margin-top: 20px
+    margin-top: -250px
 }
 #github {
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 #frontendmentor {
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 #linkedin {
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 #twitter {
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 #instagram {
     text-align: center;
-    margin-bottom: 6%;
+    margin-bottom: -30%;
 }
 button:hover {
     background: hsl(75, 94%, 57%);
@@ -97,33 +96,71 @@ button:hover {
         align-items: center;
     }
     main {
-        margin-top: 10%;
+        margin-top: 11%;
         margin-bottom: 20px;
         margin-left: 0;
         width: 17rem;
-        height: auto;
+        height: 32rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
+        padding: 0;
     }
-}
-@media only screen and (max-width: 1023px){
-    body{
-        display: flex;
-        min-width: 58vh;
-        flex-direction: column;
-        align-items: center;
+    img {
+        height: 100px;
     }
-    main {
-        margin-top: 20%;
-        margin-bottom: 0;
-        margin-left: 0;
-        width: 17rem;
+    .image {
+        text-align: center;
+        margin-top: 20px
+    }
+    h1 {
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        font-size: 27px;
+    }
+    h2 {
+        text-align: center;
+        color: hsl(75, 94%, 57%);
+        font-size: 16px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+    p {
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 16px;
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    button {
+        font-size: 100%;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    
+        width: 75%;
+        padding: 3%;
+        font-weight: bold;
+        border: none;
+     }
+     #github {
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    #frontendmentor {
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    #linkedin {
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    #twitter {
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    #instagram {
+        text-align: center;
+        margin-bottom: 6%;
     }
 }
